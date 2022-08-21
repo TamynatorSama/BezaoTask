@@ -1,0 +1,32 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 6%;
+    box-shadow: 0px 1px 20px 1px grey;
+}
+.Logo--grp{
+    display: inline-flex;
+    align-items: center;
+}
+.Logo--grp img{
+    width: clamp(4em,50%,5em);
+}
+.Logo--grp p{
+    margin-left: 1em;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+.top--down{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2em;
+}
+.top--down img{
+    width: clamp(1em,3vw,3em);
+}
+.top--down p{
+    font-size: 0.6rem;
+}

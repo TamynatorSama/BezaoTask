@@ -1,0 +1,52 @@
+.container{
+    width: max(25em,25vw);
+    padding: 10% min(3em,7%);
+    background: black;
+    display: block;
+}
+.container p{
+    font-size: (1.5em,3.5vw,2em);
+    font-weight: 600;
+    color: whitesmoke;
+    margin-bottom: 1em;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.container input,
+.container textarea
+{
+    resize: none;
+    width: 100%;
+    padding: 1em 0.8em;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.container textarea{
+    height: 10em;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    margin-top: 1em;
+    padding: 8px 3em;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.container .btn button:first-child{
+    background: #FF3D31;
+    color: white;
+}
+.erroe--msg{
+    background: #FF3D31;
+    padding: 0.8em 0.5em;
+    margin-bottom: 1em;
+    color: white;
+    font-weight: 700;
+}

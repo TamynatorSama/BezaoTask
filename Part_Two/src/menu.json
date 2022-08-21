@@ -1,0 +1,46 @@
+{
+    "menu":[
+        {
+            "id": 1,
+            "name": "Jollof Rice and Chicken",
+            "image": "./images/jollof.png",
+            "description": "Fried potato/yam chips with egg sauce or any topping of your choice",
+            "price": "₦ 1,500"
+        },
+        {
+            "id": 2,
+            "name": "Swallow with Draw Soup",
+            "image": "./images/swallow.png",
+            "description": "Fried potato/yam chips with egg sauce or any topping of your choice",
+            "price": "₦ 1000"
+        },
+        {
+            "id": 3,
+            "name": "Fries with Egg sauce",
+            "image": "./images/fries.png",
+            "description": "Fried potato/yam chips with egg sauce or any topping of your choice",
+            "price": "₦ 1,500"
+        },
+        {
+            "id": 4,
+            "name": "Swallow with Egusi Soup",
+            "image": "./images/egusi.png",
+            "description": "Nicely cooked egusi soup and eba",
+            "price": "₦ 1000"
+        },
+        {
+            "id": 5,
+            "name": "Beans",
+            "image": "./images/beans.png",
+            "description": "Fried potato/yam chips with egg sauce or any topping of your choice",
+            "price": "₦ 700"
+        },
+        {
+            "id": 6,
+            "name": "Fried Rice",
+            "image": "./images/friedrice.png",
+            "description": "Fried potato/yam chips with egg sauce or any topping of your choice",
+            "price": "₦ 600"
+        }
+    ]
+}

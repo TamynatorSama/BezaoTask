@@ -1,0 +1,54 @@
+.content--holder{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw/4.8);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+}
+.content--holder .main--image{
+    object-fit: fill;
+    height: 50%;
+    width: 100%;
+}
+.custom--grp{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 1.5em;
+    display: none;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0.4em 0.5em;
+    background: rgba(9, 9, 9, 0.619);
+}
+.custom--grp img{
+    width: 250%;
+}
+.text{
+    padding-left: 5%;
+    padding-top: 1em;
+}
+.text p{
+    max-width: min(20em,70%);
+    font-size: 85%;
+    margin-block: 2%;
+}
+.content--holder:hover{
+    transform: translateY(-1em);
+    box-shadow: 0px 1px 15px 10px rgb(223, 223, 223);
+}
+.content--holder:hover .custom--grp{
+    display: flex;
+}
+@media screen and (max-width: 1358px){
+    .content--holder{
+        width: calc(100vw/3);
+    }
+}
+@media screen and (max-width: 673px){
+    .content--holder{
+        width: max(80vw,calc(100vw/2.4));
+    }
+}
